@@ -1,6 +1,8 @@
+% to concatatenate all the 5000 data set which is 1800*5000 together by
+% gesture. Each gesture is 300 trials.
+% Author: Kening Zhang
 function[m]=concate()
-    %load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_1.mat')
-    load('male_day_1.mat');
+    load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_1.mat')
     mCyl1=horzcat(cyl_ch1, cyl_ch2);
     mHook1=horzcat(hook_ch1,hook_ch2);
     mTip1=horzcat(tip_ch1, tip_ch2);
@@ -8,8 +10,7 @@ function[m]=concate()
     mSpher1=horzcat(spher_ch1,spher_ch2);
     mLat1=horzcat(lat_ch1,lat_ch2);
     m1={mCyl1,mHook1,mTip1,mPalm1,mSpher1,mLat1};
-    %load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_2.mat')
-    load('male_day_2.mat');
+    load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_2.mat')
     mCyl2=horzcat(cyl_ch1, cyl_ch2);
     mHook2=horzcat(hook_ch1,hook_ch2);
     mTip2=horzcat(tip_ch1, tip_ch2);
@@ -17,8 +18,7 @@ function[m]=concate()
     mSpher2=horzcat(spher_ch1,spher_ch2);
     mLat2=horzcat(lat_ch1,lat_ch2);
     m2={mCyl2,mHook2,mTip2,mPalm2,mSpher2,mLat2};
-    %load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_3.mat')
-    load('male_day_3.mat');
+    load('\\acsnfs4.ucsd.edu\CifsHomes\943\kez040\cogs118B\sEMG_Basic_Hand_movements_upatras\Database 2\male_day_3.mat')
     mCyl3=horzcat(cyl_ch1, cyl_ch2);
     mHook3=horzcat(hook_ch1,hook_ch2);
     mTip3=horzcat(tip_ch1, tip_ch2);
