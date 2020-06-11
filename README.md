@@ -1,5 +1,5 @@
-# Classify-Hand-Movements
-Our goal is to classify biological data gathered from sEMG signals into six classes of hand movements. The approaches we used include Feedforward Neural Networks, Adaptive Boosting, Random Forests, Linear Discriminant Classifier, etc. The methods we used to improve our performance include empirical mode decomposition (EMD) and intrinsic mode function (IMF).
+# Multi-Class Classification for Basic Hand Movements
 
-Video presentation:
-https://youtu.be/M-HML6dJ5Qc
+The goal of this project is to classify six daily life hand grasps whose surface electromyographic signals are recorded using Delsys’ EMG System. After applying several supervised learning algorithms, we compared the testing results to see which algorithm or combination gave the highest test rate of accuracy on our data set. The classifiers we used include feedforward neural network, Adaptive Boosting, Random Forest, Linear Discriminant Analysis (LDA), Principal Component Analysis (PCA), etc. We also implemented Empirical Mode Decomposition (EMD) and eight feature extraction functions to re-project the data features and improve the classification performance. As a result, we managed to raise our test accuracy rate from only 23% to over 94%.
+
+Please refer to our [paper](https://github.com/ceruleangu/Classify-Hand-Movements/blob/master/Multi_Class_Classification_for_Basic_Hand_Movements.pdf) and [video presentation](https://youtu.be/M-HML6dJ5Qc) for more details.
